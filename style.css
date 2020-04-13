@@ -1,0 +1,276 @@
+#header{
+    background-color: black;
+    padding: 5px;
+}
+
+#footer{
+	background-color: #d9d9d9;
+	color: white;
+	text-align: center;
+	padding: 0px 5px 0px 5px;
+	position: absolute;
+	overflow: hidden;
+}
+#isiunduh{
+    background-color: none;
+/*    height: 100px;*/
+    padding:50px 5px 0px 10px;
+    text-align: center;
+}
+
+#isiup{
+/*	height: 600px;*/
+	margin: 0px;
+	padding :30px 20px 20px 20px;
+	text-align: left;
+}
+
+#isi{
+	height: 700px;
+	margin:0px;
+	padding : 200px 0px 10px 100px;
+	text-align: left;
+    background-image: url("gambar/bglog.jpg");
+}
+#isipro{
+    height: 600px;
+    margin:0px;
+    padding : 30px 0px 10px 30px;
+    text-align: left;
+    /*background-image: url("gambar/isipro.jpg");*/
+}
+
+#isiten{
+    margin:0px;
+    padding : 80px 0px 10px 100px;
+    text-align: left;
+    background-color: lavender;
+}
+
+#isiabu{
+	height: 700px;
+	margin:0px;
+	background-color: lavender;
+	padding : 50px 0px 10px 20px;
+	text-align: left;
+}
+#isihome{
+	height: 600px;
+	background-color:  #d9d9d9;
+	padding : 100px 0px 10px 100px;
+	text-align: left;
+	color: black;
+}
+
+#isibiru{
+	height: 600px;
+	margin:0px;
+	padding : 50px 0px 10px 20px;
+	text-align: center;
+    background-image: url("gambar/isibiru.jpg");
+}
+
+
+/*dropdown*/
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*dropdown*/
+
+h1{
+	font size: 40pt;
+	color:black;
+	font-family: "Comic sans ms";
+}
+h2{
+	font size: 30pt;
+	color:black;
+	text-align: center;
+	font-family: "comic sans ms";
+}
+h3{
+    font-size: 20pt;
+    color:black;
+    font-family: "Adobe Fan Heiti Std B";
+}
+h4{
+	font-size: 15pt;
+	color:black;
+	font-family: "Adobe Fan Heiti Std B";
+}
+h5{
+	font-size: 20pt;
+	color:black;
+	font-family: "Adobe Fan Heiti Std B";
+}
+h6{
+	font-size: 15pt;
+	color:black;
+	font-family: "calibri";
+}
+textarea{
+    resize: none;
+}
+/*dropdown*/
+
+/*form*/
+input[type=text],[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+div form{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+/*form*/
+
+/*image*/
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/*respon*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*image*/
+
+/*dropdown dan image dari w3scholls*/
+
